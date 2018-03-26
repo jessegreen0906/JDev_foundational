@@ -1,0 +1,24 @@
+{
+  "name": "jdev_foundational",
+  "version": "1.0.0",
+  "description": "Coding standards, linting configurations, testing configurations for use across projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessegreen0906/JDev_foundational.git"
+  },
+  "keywords": [
+    "code quality",
+    "linting",
+    "testing"
+  ],
+  "author": "Jesse Green",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessegreen0906/JDev_foundational/issues"
+  },
+  "homepage": "https://github.com/jessegreen0906/JDev_foundational#readme"
+}

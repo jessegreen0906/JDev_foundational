@@ -22,13 +22,14 @@
   },
   "homepage": "https://github.com/jessegreen0906/JDev_foundational#readme",
   "dependencies": {
+    "css-declaration-sorter": "3.x",
     "eslint": "4.x",
-	"eslint-plugin-react": "7.x",
+    "eslint-plugin-react": "7.x",
     "html-linter": "1.x",
     "jest": "22.x",
     "phantomcss": "1.x",
+    "postcss-sorting": "^3.1.0",
     "sass-lint": "1.x"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }

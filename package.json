@@ -1,36 +1,42 @@
 {
-	"name": "jdev_foundational",
-	"version": "1.0.0",
-	"description": "Coding standards, linting configurations, testing configurations for use across projects",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo 'No tests yet'",
-		"lint": "./node_modules/sass-lint/bin/sass-lint.js --config ./linting_configs/.scss-lint.yml -v"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/jessegreen0906/JDev_foundational.git"
-	},
-	"keywords": [
-		"code quality",
-		"linting",
-		"testing"
-	],
-	"author": "Jesse Green",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/jessegreen0906/JDev_foundational/issues"
-	},
-	"homepage": "https://github.com/jessegreen0906/JDev_foundational#readme",
-	"dependencies": {
-		"css-declaration-sorter": "3.x",
-		"eslint": "4.x",
-		"eslint-plugin-react": "7.x",
-		"html-linter": "1.x",
-		"jest": "22.x",
-		"phantomcss": "1.x",
-		"postcss-sorting": "^3.1.0",
-		"sass-lint": "1.x"
-	},
-	"devDependencies": {}
+  "name": "jdev_foundational",
+  "version": "1.0.0",
+  "description": "Coding standards, linting configurations, testing configurations for use across projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'No tests yet'",
+    "postCssSort": "postcss",
+    "htmlLint": "html-linter",
+    "sassLint": "sass-lint --config ./linting_configs/.scss-lint.yml -v ../../src/*.scss",
+    "eslint": "eslint",
+    "lint": "./lint.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessegreen0906/JDev_foundational.git"
+  },
+  "keywords": [
+    "code quality",
+    "linting",
+    "testing"
+  ],
+  "author": "Jesse Green",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessegreen0906/JDev_foundational/issues"
+  },
+  "homepage": "https://github.com/jessegreen0906/JDev_foundational#readme",
+  "dependencies": {
+    "css-declaration-sorter": "3.x",
+    "eslint": "4.x",
+    "eslint-plugin-react": "7.x",
+    "html-linter": "1.x",
+    "jest": "22.x",
+    "phantomcss": "1.x",
+    "postcss-sorting": "3.x",
+    "sass-lint": "1.x"
+  },
+  "devDependencies": {
+    "postcss-cli": "^5.0.0"
+  }
 }

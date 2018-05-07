@@ -37,6 +37,6 @@
     "sass-lint": "1.x"
   },
   "devDependencies": {
-    "postcss-cli": "^5.0.0"
+    "postcss-cli": "5.0.0"
   }
 }

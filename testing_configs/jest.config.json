@@ -11,7 +11,7 @@
 			"branches": 90,
 			"lines": 90
 		},
-		"<rootDir>/**/*.js": {
+		"../../../**/*.js": {
 			"branches": 90,
 			"lines": 90
 		}

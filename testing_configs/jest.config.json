@@ -3,6 +3,9 @@
 	"collectCoverageFrom": [
 		"src/**/*.{js,jsx}"
 	],
+	"coveragePathIgnorePatterns": [
+		"/ext-lib/"
+	],
 	"coverageThreshold": {
 		"global": {
 			"branches": 90,
@@ -12,5 +15,6 @@
 	"notify": true,
 	"notifyMode": "always",
 	"clearMocks": true,
+	"rootDir": "../../../"
 	
 }

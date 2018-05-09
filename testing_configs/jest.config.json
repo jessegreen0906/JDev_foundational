@@ -10,11 +10,14 @@
 		"global": {
 			"branches": 90,
 			"lines": 90
+		},
+		"<rootDir>/**/*.js": {
+			"branches": 90,
+			"lines": 90
 		}
 	},
 	"notify": true,
 	"notifyMode": "always",
 	"clearMocks": true,
 	"rootDir": "../../../"
-	
 }

@@ -1,0 +1,16 @@
+{
+	"collectCoverage": true,
+	"collectCoverageFrom": [
+		"src/**/*.{js,jsx}"
+	],
+	"coverageThreshold": {
+		"global": {
+			"branches": 90,
+			"lines": 90
+		}
+	},
+	"notify": true,
+	"notifyMode": "always",
+	"clearMocks": true,
+	
+}

@@ -16,7 +16,7 @@
 			"lines": 90
 		}
 	},
-	"notify": true,
+	"notify": false,
 	"notifyMode": "always",
 	"clearMocks": true,
 	"rootDir": "../../../"

@@ -10,7 +10,8 @@
     "sassLint": "sass-lint --config ./linting_configs/.scss-lint.yml -v ../../src/*.scss",
     "eslint": "eslint",
     "lint": "./lint.sh",
-    "unitTest": "./unitTest.sh"
+    "unitTest": "./unitTest.sh",
+	"visTest": "./visTest.sh"
   },
   "repository": {
     "type": "git",

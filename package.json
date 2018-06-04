@@ -11,7 +11,7 @@
     "eslint": "eslint",
     "lint": "./lint.sh",
     "unitTest": "./unitTest.sh",
-	"visTest": "./visTest.sh"
+    "visTest": "./visTest.sh"
   },
   "repository": {
     "type": "git",
@@ -37,10 +37,10 @@
     "grunt-contrib-sass": "1.x",
     "html-linter": "1.x",
     "jest": "22.x",
+    "jest-cli": "23.x",
     "phantomcss": "1.x",
     "postcss-sorting": "3.x",
     "sass-lint": "1.x"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }

@@ -3,9 +3,13 @@
 echo "Running Visual Tests";
 
 if [[ -f ./node_modules/casperjs/bin/casperjs ]]; then
-	./node_modules/casperjs/bin/casperjs test "$1";
+	if ! ./node_modules/casperjs/bin/casperjs test "$1"; then
+		exit 1;
+	fi
 elif [[ -f ../casperjs/bin/casperjs ]]; then
-	../casperjs/bin/casperjs test "$1";
+	if ! ../casperjs/bin/casperjs test "$1"; then
+		exit 1;
+	fi
 fi
 
 echo "Visual Tests complete";

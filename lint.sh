@@ -26,11 +26,11 @@ fi
 
 echo "Running JS linting";
 if [[ -f ./node_modules/eslint/bin/eslint.js ]]; then
-	if ! ./node_modules/eslint/bin/eslint.js -v --config ./linting_configs/.eslintrc.json "$3"; then
+	if ! ./node_modules/eslint/bin/eslint.js --ignore-pattern **/ext-lib/**/*.js --config ./linting_configs/.eslintrc.json "$3"; then
 		exit 1;
 	fi
 elif [[ -f ../eslint/bin/eslint.js ]]; then
-	if ! ../eslint/bin/eslint.js -v --config ./linting_configs/.eslintrc.json "$3"; then
+	if ! ../eslint/bin/eslint.js --ignore-pattern **/ext-lib/**/*.js --config ./linting_configs/.eslintrc.json "$3"; then
 		exit 1;
 	fi
 fi

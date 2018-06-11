@@ -47,3 +47,17 @@
 `"scripts": {
  		"lint": "cd ./node_modules/jdev_foundational/ && npm run lint -- ../../src/**/*.html ../../src/**/*.scss ../../src/**/*.js"
  }`
+ 
+ <h2>Unit tests</h2>
+ 
+ <h3>Running from the command line</h3>
+ 
+<p>The unit test command must be run from the jdev_foundational directory located in your node_modules folder. From your project root directory change to your jdev_foundational folder.</p>
+
+`cd ./node_modules/jdev_foundational`
+
+<p>Now run the unit test command</p>
+
+`npm run unitTest`
+
+<h3>Running as an NPM script</h3>

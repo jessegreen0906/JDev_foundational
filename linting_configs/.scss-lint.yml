@@ -55,6 +55,9 @@ linters:
     enabled: true
     present: false
 
+  ForceElementNesting:
+    enabled: false
+
   HexLength:
     enabled: true
     style: long

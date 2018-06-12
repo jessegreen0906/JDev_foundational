@@ -3,12 +3,13 @@
 	
 	},
 	"files": {
-		"include": "**/*.s+(a|c)ss"
+		"include": "**/*.scss"
 	},
 	"rules": {
 		"indentation": [
 			2,
 			{"size": "tab"}
-]
+		],
+		"force-element-nesting": 0
 	}
 }

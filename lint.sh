@@ -15,11 +15,11 @@ fi
 
 echo "Running SASS linting";
 if [[ -f ./node_modules/sass-lint/bin/sass-lint.js ]]; then
-	if ! ./node_modules/sass-lint/bin/sass-lint.js -v --config ./linting_configs/.sasslintrc.json "$2"; then
+	if ! ./node_modules/sass-lint/bin/sass-lint.js --config ./linting_configs/.sasslintrc.json "$2"; then
 		exit 1;
 	fi
 elif [[ -f ../sass-lint/bin/sass-lint.js ]]; then
-	if ! ../sass-lint/bin/sass-lint.js -v --config ./linting_configs/.sasslintrc.json "$2"; then
+	if ! ../sass-lint/bin/sass-lint.js --config ./linting_configs/.sasslintrc.json "$2"; then
 		exit 1;
 	fi
 fi

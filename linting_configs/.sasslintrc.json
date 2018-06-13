@@ -113,7 +113,7 @@
 		"property-units": [
 			2,
 			{
-				"global": ["rem, px"]
+				"global": ["rem", "px"]
 			}
 		],
 		"pseudo-element": 2,

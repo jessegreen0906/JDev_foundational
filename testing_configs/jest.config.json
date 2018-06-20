@@ -7,10 +7,6 @@
 		"/ext-lib/"
 	],
 	"coverageThreshold": {
-		"global": {
-			"branches": 90,
-			"lines": 90
-		},
 		"../../../**/*.js": {
 			"branches": 90,
 			"lines": 90
@@ -19,5 +15,8 @@
 	"notify": false,
 	"notifyMode": "always",
 	"clearMocks": true,
-	"rootDir": "../../../"
+	"rootDir": "../../../",
+	"testMatch": [
+		"**/test/unit-tests/**/?(*.)test.js?(x)"
+	]
 }

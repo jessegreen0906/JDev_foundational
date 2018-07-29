@@ -18,5 +18,6 @@
 	"rootDir": "../../../",
 	"testMatch": [
 		"**/test/unit-tests/**/?(*.)test.js?(x)"
-	]
+	],
+	"testURL": "http://localhost"
 }

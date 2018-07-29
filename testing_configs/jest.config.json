@@ -7,7 +7,7 @@
 		"/ext-lib/"
 	],
 	"coverageThreshold": {
-		"../../../**/*.js": {
+		"../../../**/*.js?(x)": {
 			"branches": 90,
 			"lines": 90
 		}

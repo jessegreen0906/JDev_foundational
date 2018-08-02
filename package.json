@@ -1,6 +1,6 @@
 {
   "name": "jdev_foundational",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Coding standards, linting configurations, testing configurations for use across projects",
   "main": "index.js",
   "scripts": {
